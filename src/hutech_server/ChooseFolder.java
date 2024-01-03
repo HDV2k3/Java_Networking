@@ -28,7 +28,6 @@ public class ChooseFolder extends javax.swing.JFrame {
                 + ":"
                 + this.client.getClient().getPort());
     }
-
     public String getDirectoryPath() {
         return directoryPath;
     }

@@ -402,12 +402,7 @@ public class Server extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_actionTableMouseClicked
-      private void broadcastMessage(String message) {
-            for (PrintWriter clientWriter : clientWriters) {
-                // Send the message to all connected clients
-                clientWriter.println(message);
-            }
-        }
+  
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
